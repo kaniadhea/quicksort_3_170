@@ -76,6 +76,11 @@ void q_short(int low, int high)
 	}
 	//j now contraint the index of the last element in the sort list 
 	if (low, j)// Langkah 11
-
+		//move to the pivot its correct position in the list 
+	{
+		swap(low, j);
+		mov_count++;
+	}
+	//sort the list on the left of pivot using quick sort 
 }
 
